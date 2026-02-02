@@ -61,9 +61,9 @@ Return JSON: { "classifications": [ { "index": number, "respect_id": string }, .
 
   const timestamp = new Date().toISOString();
   return items.map((m, i) => {
-    const respect_id = (byIndex.get(i) && RESPECT_IDS.includes(byIndex.get(i)!)
-      ? byIndex.get(i)!
-      : "security_border") as PipelineRespectId;
+    const raw = byIndex.get(i);
+    const respect_id: PipelineRespectId =
+      raw && (RESPECT_IDS as readonly string[]).includes(raw) ? (raw as PipelineRespectId) : "security_border";
     return {
       item_type: "media" as const,
       subject_id,
