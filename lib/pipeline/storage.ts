@@ -20,8 +20,13 @@ import { validateRawPollItem } from "./validate-poll";
 const PIPELINE_DIR = "data/pipeline";
 const SUBJECT_DIR = "small_boats";
 
+/** On Vercel the app dir is read-only; use /tmp so refresh and writes succeed. */
+function getStorageBase(): string {
+  return process.env.VERCEL === "1" ? "/tmp" : process.cwd();
+}
+
 function getDir(): string {
-  const base = process.cwd();
+  const base = getStorageBase();
   const dir = path.join(base, PIPELINE_DIR, SUBJECT_DIR);
   if (!fs.existsSync(path.join(base, PIPELINE_DIR))) {
     fs.mkdirSync(path.join(base, PIPELINE_DIR), { recursive: true });
@@ -151,7 +156,7 @@ export function saveViewModel(subjectId: string, payload: SubjectViewModel): Sto
 
 /** Read latest view model for subject (UI reads this). */
 export function getLatestViewModel(subjectId: string): SubjectViewModel | null {
-  const base = process.cwd();
+  const base = getStorageBase();
   const dir = path.join(base, PIPELINE_DIR, SUBJECT_DIR);
   const filePath = path.join(dir, "view_models.json");
   const arr = readJson<StoredViewModel>(filePath);
@@ -163,7 +168,7 @@ export function getLatestViewModel(subjectId: string): SubjectViewModel | null {
 
 /** Read all view model snapshots for subject (history). */
 export function getViewModelHistory(subjectId: string): StoredViewModel[] {
-  const base = process.cwd();
+  const base = getStorageBase();
   const dir = path.join(base, PIPELINE_DIR, SUBJECT_DIR);
   const filePath = path.join(dir, "view_models.json");
   const arr = readJson<StoredViewModel>(filePath);
@@ -172,25 +177,25 @@ export function getViewModelHistory(subjectId: string): StoredViewModel[] {
 
 /** Read latest raw media for subject (for aggregator input). */
 export function getRawMediaForSubject(subjectId: string): StoredRawMedia[] {
-  const base = process.cwd();
+  const base = getStorageBase();
   const dir = path.join(base, PIPELINE_DIR, SUBJECT_DIR);
   return readJson<StoredRawMedia>(path.join(dir, "raw_media.json")).filter((r) => r.subject_id === subjectId);
 }
 
 export function getRawPollsForSubject(subjectId: string): StoredRawPoll[] {
-  const base = process.cwd();
+  const base = getStorageBase();
   const dir = path.join(base, PIPELINE_DIR, SUBJECT_DIR);
   return readJson<StoredRawPoll>(path.join(dir, "raw_polls.json")).filter((r) => r.subject_id === subjectId);
 }
 
 export function getRawMetricsForSubject(subjectId: string): StoredRawMetric[] {
-  const base = process.cwd();
+  const base = getStorageBase();
   const dir = path.join(base, PIPELINE_DIR, SUBJECT_DIR);
   return readJson<StoredRawMetric>(path.join(dir, "raw_metrics.json")).filter((r) => r.subject_id === subjectId);
 }
 
 export function getClassifiedForSubject(subjectId: string): StoredClassifiedItem[] {
-  const base = process.cwd();
+  const base = getStorageBase();
   const dir = path.join(base, PIPELINE_DIR, SUBJECT_DIR);
   return readJson<StoredClassifiedItem>(path.join(dir, "classified.json")).filter((r) => r.subject_id === subjectId);
 }

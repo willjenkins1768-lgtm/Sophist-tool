@@ -36,6 +36,16 @@ Vercel is made by the Next.js team and has a free tier.
 
 Your site will be at `https://your-project-name.vercel.app`. You can add a custom domain under **Settings → Domains**.
 
+### Vercel: pipeline data and “No live view model”
+
+On Vercel the filesystem is read-only except `/tmp`. The app uses `/tmp` for pipeline data when `VERCEL=1`, so **Refresh** works and returns the new view model in the response (the UI updates when you click “Refresh live data”). Data in `/tmp` is ephemeral and not shared across requests, so the **first visit** may show “No live view model” until someone clicks Refresh.
+
+To show data on first load without clicking Refresh, ship a static snapshot:
+
+1. Run refresh locally: `npm run refresh` (with dev server on port 3000).
+2. Export the latest view model: `node scripts/export-view-model-for-vercel.js`
+3. Commit `public/data/view-model-small-boats.json` and push. The deployed site will use this file when no live view model exists.
+
 ---
 
 ## Option 2: Netlify
