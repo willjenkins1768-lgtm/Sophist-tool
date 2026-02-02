@@ -4,9 +4,9 @@
     "label": "Small boats",
     "parent_id": "migration"
   },
-  "as_of": "2026-02-02T20:01:06.936Z",
+  "as_of": "2026-02-02T20:26:30.182Z",
   "dominant_respect": {
-    "as_of": "2026-02-02T20:01:06.936Z",
+    "as_of": "2026-02-02T20:26:30.182Z",
     "dominant": {
       "respect_id": "security_border",
       "score": 0.4392140111063648
@@ -16,13 +16,13 @@
         "type": "media",
         "respect_id": "humanitarian",
         "weight": 0.45,
-        "value_share": 0.17920020365772785,
+        "value_share": 0.17920540677410648,
         "source_ids": [
-          "news_news_api_1770062445402_0",
-          "news_news_api_1770062445402_1",
-          "news_news_api_1770062445402_2",
-          "news_news_api_1770062445403_3",
-          "news_news_api_1770062445403_4"
+          "news_news_api_1770063964873_0",
+          "news_news_api_1770063964873_1",
+          "news_news_api_1770063964873_2",
+          "news_news_api_1770063964873_3",
+          "news_news_api_1770063964873_4"
         ]
       },
       {
@@ -52,7 +52,7 @@
     "alternative": [
       {
         "respect_id": "humanitarian",
-        "score": 0.08064009164597753
+        "score": 0.08064243304834792
       }
     ]
   },
@@ -66,7 +66,7 @@
       },
       "secondary_respect": null,
       "relation_to_dominant": "matches",
-      "summary_of_findings": "The Conservative party's primary respect is identified as security and border control, reflecting a strong emphasis on maintaining national safety and regulating immigration policies. This focus is underscored in their 2024 manifesto, which prioritizes measures aimed at enhancing border security. There is no clear secondary respect, indicating that the party's stance is predominantly centered on the issue of security without a significant secondary emphasis.",
+      "summary_of_findings": "The Conservative Party's primary respect is identified as security and border control, reflecting a strong emphasis on national safety and the management of immigration policies as outlined in their 2024 manifesto. There is no clear secondary respect, indicating that the party's focus is singularly concentrated on ensuring robust border security measures without additional priorities competing for attention.",
       "evidence_source_ids": [
         "party_conservative_conservative_manifesto_20260202_ref"
       ],
@@ -93,7 +93,7 @@
       },
       "secondary_respect": null,
       "relation_to_dominant": "matches",
-      "summary_of_findings": "The Labour Party's primary respect is identified as security and border control, reflecting a strong emphasis on ensuring safety and managing immigration effectively in their 2024 manifesto. This focus suggests a commitment to addressing public concerns about national security and the integrity of borders, while there is no clear secondary respect indicated, highlighting a singular prioritization of security issues in their political stance.",
+      "summary_of_findings": "The Labour Party's primary focus on security and border control reflects its commitment to ensuring safety and stability for citizens, as outlined in the \"Manifesto 2024 – Plan for Change\" section. This emphasis indicates a strategic prioritization of national security issues over other potential concerns, with no clear secondary respect identified in their current platform. The singular focus suggests a concerted effort to address public apprehensions regarding safety and immigration.",
       "evidence_source_ids": [
         "party_labour_labour_manifesto_20260202_ref"
       ],
@@ -123,7 +123,7 @@
         "confidence": 0.58
       },
       "relation_to_dominant": "challenges",
-      "summary_of_findings": "The Reform party's primary respect is identified as sovereignty and democratic control, as their focus on illegal immigration highlights a commitment to maintaining national integrity and self-governance. The secondary respect of security and border control is considered secondary because it serves as a means to reinforce the primary concern of sovereignty, rather than being an independent focus in its own right.",
+      "summary_of_findings": "The Reform party's primary respect is identified as sovereignty and democratic control, as their emphasis on the importance of national integrity and self-governance highlights a commitment to maintaining the nation's autonomy in decision-making. The secondary respect of security and border control is considered secondary because it serves primarily as a means to reinforce the party's overarching goal of protecting sovereignty, rather than standing as an independent priority.",
       "evidence_source_ids": [
         "party_reform_reform_manifesto_2024_Immigration"
       ],
@@ -154,7 +154,7 @@
       },
       "secondary_respect": null,
       "relation_to_dominant": "challenges",
-      "summary_of_findings": "The Green Party's primary respect is identified as humanitarian and moral responsibility, as their focus on ensuring safety and opportunities for individuals to rebuild their lives underscores a commitment to ethical considerations in policy-making. There is no clear secondary respect, as the party's stance is predominantly centered on the moral imperative to support and protect vulnerable populations. This singular focus highlights the party's dedication to humanitarian values over other potential political frameworks.",
+      "summary_of_findings": "The Green Party's political stance is primarily framed around humanitarian and moral responsibility, emphasizing the belief that all individuals deserve safety and the opportunity to rebuild their lives. This focus on ethical imperatives underscores the party's commitment to social justice and compassion, leaving no clear secondary respect to consider in their messaging. The absence of a secondary frame reinforces the singular importance of humanitarian values in their political agenda.",
       "evidence_source_ids": [
         "party_green_green_manifesto_2024_Refugees"
       ],
@@ -184,48 +184,48 @@
     },
     "dominant": {
       "respect_id": "humanitarian",
-      "share": 0.17920020365772785
+      "share": 0.17920540677410648
     },
     "shares": [
       {
         "respect_id": "humanitarian",
-        "share": 0.17920020365772785
+        "share": 0.17920540677410648
       },
       {
         "respect_id": "rule_of_law",
-        "share": 0.1705560889523935
-      },
-      {
-        "respect_id": "economy_prosperity",
-        "share": 0.12980275958533302
+        "share": 0.17057360234111935
       },
       {
         "respect_id": "capacity_delivery",
-        "share": 0.12857398401547585
+        "share": 0.166661211414299
       },
       {
-        "respect_id": "sovereignty_control",
-        "share": 0.10608185484358816
+        "respect_id": "economy_prosperity",
+        "share": 0.11083165274177137
       },
       {
         "respect_id": "fairness_distribution",
-        "share": 0.09046572702331367
+        "share": 0.09033393580057704
+      },
+      {
+        "respect_id": "sovereignty_control",
+        "share": 0.08712011043766492
       },
       {
         "respect_id": "security_border",
-        "share": 0.07501174678032155
+        "share": 0.07499416948789436
       },
       {
         "respect_id": "stability_risk",
-        "share": 0.06292576547399613
+        "share": 0.06291573760790219
       },
       {
         "respect_id": "national_interest_global",
-        "share": 0.036937120298615504
+        "share": 0.036939678420240055
       },
       {
         "respect_id": "environment_sustainability",
-        "share": 0.020444749369235047
+        "share": 0.020424494974425205
       }
     ],
     "top_phrases": [
@@ -242,7 +242,7 @@
     ],
     "exemplars": [
       {
-        "source_id": "news_guardian_api_1770062445737_0",
+        "source_id": "news_guardian_api_1770063964890_0",
         "outlet": "The Guardian",
         "title": "Met to review reports of alleged misconduct in public office after latest Epstein files release - UK politics live",
         "url": "https://www.theguardian.com/politics/live/2026/feb/02/uk-politics-peter-mandelson-jeffrey-epstein-labour-party-fallout-latest-updates",
@@ -251,7 +251,7 @@
         "confidence": 0.8
       },
       {
-        "source_id": "news_guardian_api_1770062445737_1",
+        "source_id": "news_guardian_api_1770063964891_1",
         "outlet": "The Guardian",
         "title": "How much did the Epstein poison infect Britain? Starmer had better find out, and fast | Gaby Hinsliff",
         "url": "https://www.theguardian.com/commentisfree/2026/feb/02/jeffrey-epstein-poison-infect-britain-keir-starmer",
@@ -260,7 +260,7 @@
         "confidence": 0.8
       },
       {
-        "source_id": "news_guardian_api_1770062445737_2",
+        "source_id": "news_guardian_api_1770063964891_2",
         "outlet": "The Guardian",
         "title": "Epstein and magician David Copperfield appeared to have ‘very close relationship’, newly released files say",
         "url": "https://www.theguardian.com/us-news/2026/feb/02/epstein-files-david-copperfield",
@@ -269,7 +269,7 @@
         "confidence": 0.8
       },
       {
-        "source_id": "news_guardian_api_1770062445737_3",
+        "source_id": "news_guardian_api_1770063964891_3",
         "outlet": "The Guardian",
         "title": "First medical evacuee leaves Gaza as Rafah crossing reopens for handful of Palestinians – as it happened",
         "url": "https://www.theguardian.com/world/live/2026/feb/02/rafah-border-egypt-gaza-israel-opens-crossing-latest-news-updates",
@@ -278,7 +278,7 @@
         "confidence": 0.8
       },
       {
-        "source_id": "news_guardian_api_1770062445737_4",
+        "source_id": "news_guardian_api_1770063964891_4",
         "outlet": "The Guardian",
         "title": "Sick and wounded Palestinians enter Egypt after Israel reopens Rafah crossing",
         "url": "https://www.theguardian.com/world/2026/feb/02/israel-agrees-to-limited-reopening-of-rafah-border-crossing-in-gaza",
@@ -288,63 +288,63 @@
       }
     ],
     "source_ids": [
-      "news_news_api_1770062445402_0",
-      "news_news_api_1770062445402_1",
-      "news_news_api_1770062445402_2",
-      "news_news_api_1770062445403_3",
-      "news_news_api_1770062445403_4",
-      "news_news_api_1770062445403_5",
-      "news_news_api_1770062445403_6",
-      "news_guardian_api_1770062445737_0",
-      "news_guardian_api_1770062445737_1",
-      "news_guardian_api_1770062445737_2",
-      "news_guardian_api_1770062445737_3",
-      "news_guardian_api_1770062445737_4",
-      "news_guardian_api_1770062445737_5",
-      "news_guardian_api_1770062445737_6",
-      "news_guardian_api_1770062445737_7",
-      "news_guardian_api_1770062445737_8",
-      "news_guardian_api_1770062445737_9",
-      "news_guardian_api_1770062445737_10",
-      "news_guardian_api_1770062445737_11",
-      "news_guardian_api_1770062445737_12",
-      "news_guardian_api_1770062445737_13",
-      "news_guardian_api_1770062445737_14",
-      "news_guardian_api_1770062445737_15",
-      "news_guardian_api_1770062445737_16",
-      "news_guardian_api_1770062445737_17",
-      "news_guardian_api_1770062445737_18",
-      "news_guardian_api_1770062445737_19",
-      "news_guardian_api_1770062445737_20",
-      "news_guardian_api_1770062445737_21",
-      "news_guardian_api_1770062445737_22",
-      "news_guardian_api_1770062445737_23",
-      "news_guardian_api_1770062445737_24",
-      "news_guardian_api_1770062445737_25",
-      "news_guardian_api_1770062445737_26",
-      "news_guardian_api_1770062445737_27",
-      "news_guardian_api_1770062445737_28",
-      "news_guardian_api_1770062445737_29",
-      "news_guardian_api_1770062445737_30",
-      "news_guardian_api_1770062445737_31",
-      "news_guardian_api_1770062445737_32",
-      "news_guardian_api_1770062445737_33",
-      "news_guardian_api_1770062445737_34",
-      "news_guardian_api_1770062445737_35",
-      "news_guardian_api_1770062445737_36",
-      "news_guardian_api_1770062445737_37",
-      "news_guardian_api_1770062445737_38",
-      "news_guardian_api_1770062445737_39",
-      "news_guardian_api_1770062445737_40",
-      "news_guardian_api_1770062445737_41",
-      "news_guardian_api_1770062445737_42",
-      "news_guardian_api_1770062445737_43",
-      "news_guardian_api_1770062445737_44",
-      "news_guardian_api_1770062445737_45",
-      "news_guardian_api_1770062445737_46",
-      "news_guardian_api_1770062445737_47",
-      "news_guardian_api_1770062445737_48",
-      "news_guardian_api_1770062445737_49"
+      "news_news_api_1770063964873_0",
+      "news_news_api_1770063964873_1",
+      "news_news_api_1770063964873_2",
+      "news_news_api_1770063964873_3",
+      "news_news_api_1770063964873_4",
+      "news_news_api_1770063964873_5",
+      "news_news_api_1770063964873_6",
+      "news_guardian_api_1770063964890_0",
+      "news_guardian_api_1770063964891_1",
+      "news_guardian_api_1770063964891_2",
+      "news_guardian_api_1770063964891_3",
+      "news_guardian_api_1770063964891_4",
+      "news_guardian_api_1770063964891_5",
+      "news_guardian_api_1770063964891_6",
+      "news_guardian_api_1770063964891_7",
+      "news_guardian_api_1770063964891_8",
+      "news_guardian_api_1770063964891_9",
+      "news_guardian_api_1770063964891_10",
+      "news_guardian_api_1770063964891_11",
+      "news_guardian_api_1770063964891_12",
+      "news_guardian_api_1770063964891_13",
+      "news_guardian_api_1770063964891_14",
+      "news_guardian_api_1770063964891_15",
+      "news_guardian_api_1770063964891_16",
+      "news_guardian_api_1770063964891_17",
+      "news_guardian_api_1770063964891_18",
+      "news_guardian_api_1770063964891_19",
+      "news_guardian_api_1770063964891_20",
+      "news_guardian_api_1770063964891_21",
+      "news_guardian_api_1770063964891_22",
+      "news_guardian_api_1770063964891_23",
+      "news_guardian_api_1770063964891_24",
+      "news_guardian_api_1770063964891_25",
+      "news_guardian_api_1770063964891_26",
+      "news_guardian_api_1770063964891_27",
+      "news_guardian_api_1770063964891_28",
+      "news_guardian_api_1770063964891_29",
+      "news_guardian_api_1770063964891_30",
+      "news_guardian_api_1770063964891_31",
+      "news_guardian_api_1770063964891_32",
+      "news_guardian_api_1770063964891_33",
+      "news_guardian_api_1770063964891_34",
+      "news_guardian_api_1770063964891_35",
+      "news_guardian_api_1770063964891_36",
+      "news_guardian_api_1770063964891_37",
+      "news_guardian_api_1770063964891_38",
+      "news_guardian_api_1770063964891_39",
+      "news_guardian_api_1770063964891_40",
+      "news_guardian_api_1770063964891_41",
+      "news_guardian_api_1770063964891_42",
+      "news_guardian_api_1770063964891_43",
+      "news_guardian_api_1770063964891_44",
+      "news_guardian_api_1770063964891_45",
+      "news_guardian_api_1770063964891_46",
+      "news_guardian_api_1770063964891_47",
+      "news_guardian_api_1770063964891_48",
+      "news_guardian_api_1770063964891_49"
     ],
     "volume": 57,
     "media_type_breakdown": [
@@ -355,43 +355,43 @@
         "shares": [
           {
             "respect_id": "rule_of_law",
-            "share": 0.18435943771170538
+            "share": 0.18436515490331107
           },
           {
             "respect_id": "humanitarian",
-            "share": 0.1818977805473764
-          },
-          {
-            "respect_id": "economy_prosperity",
-            "share": 0.14030788298188074
+            "share": 0.18190026939473067
           },
           {
             "respect_id": "capacity_delivery",
-            "share": 0.13897966084378996
+            "share": 0.1801364316462209
           },
           {
-            "respect_id": "sovereignty_control",
-            "share": 0.09902812804570091
+            "respect_id": "economy_prosperity",
+            "share": 0.11979283163090505
           },
           {
             "respect_id": "fairness_distribution",
-            "share": 0.09778724798769305
+            "share": 0.09763779294285527
+          },
+          {
+            "respect_id": "sovereignty_control",
+            "share": 0.07853075280705826
           },
           {
             "respect_id": "stability_risk",
-            "share": 0.05775874272446299
+            "share": 0.057755803424000565
           },
           {
             "respect_id": "security_border",
-            "share": 0.04107332565299119
+            "share": 0.04107473326764685
           },
           {
             "respect_id": "national_interest_global",
-            "share": 0.03992649439119781
+            "share": 0.039926397992148796
           },
           {
             "respect_id": "environment_sustainability",
-            "share": 0.018881299113201626
+            "share": 0.01887983199112253
           }
         ]
       },
@@ -402,23 +402,23 @@
         "shares": [
           {
             "respect_id": "security_border",
-            "share": 0.33983304119492097
+            "share": 0.3398495629233092
           },
           {
             "respect_id": "sovereignty_control",
-            "share": 0.2522935001102054
+            "share": 0.25251115655185324
           },
           {
             "respect_id": "humanitarian",
-            "share": 0.1904468198244411
+            "share": 0.19050726703835769
           },
           {
             "respect_id": "stability_risk",
-            "share": 0.1655118997549821
+            "share": 0.16550896443147634
           },
           {
             "respect_id": "environment_sustainability",
-            "share": 0.05191473911545047
+            "share": 0.0516230490550035
           }
         ]
       },
@@ -578,7 +578,7 @@
     ]
   },
   "reality_metrics": {
-    "updated_at": "2026-02-02T20:00:45Z",
+    "updated_at": "2026-02-02T20:26:04Z",
     "metrics": [
       {
         "metric_id": "channel_crossings",
@@ -641,7 +641,7 @@
       "title": "Conservative Party Manifesto 2024",
       "type": "manifesto",
       "role": "party_stance_authoritative",
-      "retrieved_at": "2026-02-02T20:00:37Z",
+      "retrieved_at": "2026-02-02T20:25:58Z",
       "publisher": "conservative",
       "published_at": "2024-01-01",
       "url": "https://www.conservatives.com/plan",
@@ -652,7 +652,7 @@
       "title": "Labour Party Manifesto 2024",
       "type": "manifesto",
       "role": "party_stance_authoritative",
-      "retrieved_at": "2026-02-02T20:00:37Z",
+      "retrieved_at": "2026-02-02T20:25:58Z",
       "publisher": "labour",
       "published_at": "2024-01-01",
       "url": "https://labour.org.uk/change/",
@@ -663,7 +663,7 @@
       "title": "Reform Manifesto 2024",
       "type": "manifesto",
       "role": "party_stance_authoritative",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "Reform",
       "published_at": "2024-06-01",
       "location": "Immigration"
@@ -673,7 +673,7 @@
       "title": "Green Manifesto 2024",
       "type": "manifesto",
       "role": "party_stance_authoritative",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "Green",
       "published_at": "2024-06-01",
       "location": "Refugees"
@@ -683,7 +683,7 @@
       "title": "Illegal Migration Act 2023",
       "type": "policy_doc",
       "role": "institutional_constraint",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "UK Parliament",
       "url": "https://www.legislation.gov.uk/",
       "location": "Act"
@@ -693,576 +693,576 @@
       "title": "Home Office small boats strategy",
       "type": "policy_doc",
       "role": "institutional_constraint",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "Home Office",
       "url": "https://www.gov.uk/government/organisations/home-office"
     },
-    "news_news_api_1770062445402_0": {
-      "id": "news_news_api_1770062445402_0",
+    "news_news_api_1770063964873_0": {
+      "id": "news_news_api_1770063964873_0",
       "title": "People advertising illegal smuggling routes into UK to face five-year prison sen",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "Sky News",
       "published_at": "2026-02-01",
       "url": "https://news.sky.com/story/people-advertising-illegal-smuggling-routes-into-uk-to-face-five-year-prison-sentences-13501894"
     },
-    "news_news_api_1770062445402_1": {
-      "id": "news_news_api_1770062445402_1",
+    "news_news_api_1770063964873_1": {
+      "id": "news_news_api_1770063964873_1",
       "title": "Why the UK’s toughest immigration voices are often politicians of colour",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "Al Jazeera English",
       "published_at": "2026-01-30",
       "url": "https://www.aljazeera.com/opinions/2026/1/30/why-the-uks-toughest-immigration-voices-are-often-politicians-of-colour"
     },
-    "news_news_api_1770062445402_2": {
-      "id": "news_news_api_1770062445402_2",
+    "news_news_api_1770063964873_2": {
+      "id": "news_news_api_1770063964873_2",
       "title": "‘One in a Million’ Review: An Epic Syrian Refugee Documentary Offers a Vivid, Nu",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "IndieWire",
       "published_at": "2026-01-27",
       "url": "https://www.indiewire.com/criticism/movies/one-in-a-million-review-1235175855/"
     },
-    "news_news_api_1770062445403_3": {
-      "id": "news_news_api_1770062445403_3",
+    "news_news_api_1770063964873_3": {
+      "id": "news_news_api_1770063964873_3",
       "title": "I’ve Covered Migration and Borders for Years. This Is What I’ve Learned.",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "Thenation.com",
       "published_at": "2026-01-27",
       "url": "https://www.thenation.com/article/world/borders-migration-imperialism-refugees/"
     },
-    "news_news_api_1770062445403_4": {
-      "id": "news_news_api_1770062445403_4",
+    "news_news_api_1770063964873_4": {
+      "id": "news_news_api_1770063964873_4",
       "title": "The Idea of Strong Borders Has Fueled Fascist-Style Wave in US, Parts of Europe",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "Tomdispatch.com",
       "published_at": "2026-01-26",
       "url": "https://tomdispatch.com/immigration-and-the-invasion-story/"
     },
-    "news_news_api_1770062445403_5": {
-      "id": "news_news_api_1770062445403_5",
+    "news_news_api_1770063964873_5": {
+      "id": "news_news_api_1770063964873_5",
       "title": "Borders as Crime Scenes and Crimes",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "Juancole.com",
       "published_at": "2026-01-26",
       "url": "https://www.juancole.com/2026/01/borders-scenes-crimes.html"
     },
-    "news_news_api_1770062445403_6": {
-      "id": "news_news_api_1770062445403_6",
+    "news_news_api_1770063964873_6": {
+      "id": "news_news_api_1770063964873_6",
       "title": "50 of our favorite U.S. state parks",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "National Geographic",
       "published_at": "2026-01-22",
       "url": "https://www.nationalgeographic.com/travel/article/best-state-parks-united-states"
     },
-    "news_guardian_api_1770062445737_0": {
-      "id": "news_guardian_api_1770062445737_0",
+    "news_guardian_api_1770063964890_0": {
+      "id": "news_guardian_api_1770063964890_0",
       "title": "Met to review reports of alleged misconduct in public office after latest Epstei",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/politics/live/2026/feb/02/uk-politics-peter-mandelson-jeffrey-epstein-labour-party-fallout-latest-updates"
     },
-    "news_guardian_api_1770062445737_1": {
-      "id": "news_guardian_api_1770062445737_1",
+    "news_guardian_api_1770063964891_1": {
+      "id": "news_guardian_api_1770063964891_1",
       "title": "How much did the Epstein poison infect Britain? Starmer had better find out, and",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/commentisfree/2026/feb/02/jeffrey-epstein-poison-infect-britain-keir-starmer"
     },
-    "news_guardian_api_1770062445737_2": {
-      "id": "news_guardian_api_1770062445737_2",
+    "news_guardian_api_1770063964891_2": {
+      "id": "news_guardian_api_1770063964891_2",
       "title": "Epstein and magician David Copperfield appeared to have ‘very close relationship",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/us-news/2026/feb/02/epstein-files-david-copperfield"
     },
-    "news_guardian_api_1770062445737_3": {
-      "id": "news_guardian_api_1770062445737_3",
+    "news_guardian_api_1770063964891_3": {
+      "id": "news_guardian_api_1770063964891_3",
       "title": "First medical evacuee leaves Gaza as Rafah crossing reopens for handful of Pales",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/world/live/2026/feb/02/rafah-border-egypt-gaza-israel-opens-crossing-latest-news-updates"
     },
-    "news_guardian_api_1770062445737_4": {
-      "id": "news_guardian_api_1770062445737_4",
+    "news_guardian_api_1770063964891_4": {
+      "id": "news_guardian_api_1770063964891_4",
       "title": "Sick and wounded Palestinians enter Egypt after Israel reopens Rafah crossing",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/world/2026/feb/02/israel-agrees-to-limited-reopening-of-rafah-border-crossing-in-gaza"
     },
-    "news_guardian_api_1770062445737_5": {
-      "id": "news_guardian_api_1770062445737_5",
+    "news_guardian_api_1770063964891_5": {
+      "id": "news_guardian_api_1770063964891_5",
       "title": "Lack of mental health beds contributed to UK teenager’s death, inquest finds",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/society/2026/feb/02/lack-of-mental-health-beds-ellame-ford-dunn-death-inquest"
     },
-    "news_guardian_api_1770062445737_6": {
-      "id": "news_guardian_api_1770062445737_6",
+    "news_guardian_api_1770063964891_6": {
+      "id": "news_guardian_api_1770063964891_6",
       "title": "‘They are not manufactured’: how Brit school stars took over the Grammys",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/music/2026/feb/02/how-brit-school-stars-took-over-grammys"
     },
-    "news_guardian_api_1770062445737_7": {
-      "id": "news_guardian_api_1770062445737_7",
+    "news_guardian_api_1770063964891_7": {
+      "id": "news_guardian_api_1770063964891_7",
       "title": "Gold and silver prices seesaw as FTSE 100 hits record high",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/business/2026/feb/02/plunge-in-price-of-gold-and-silver-rattles-global-stock-markets"
     },
-    "news_guardian_api_1770062445737_8": {
-      "id": "news_guardian_api_1770062445737_8",
+    "news_guardian_api_1770063964891_8": {
+      "id": "news_guardian_api_1770063964891_8",
       "title": "The Epstein files expose just how cheap corruption is in the UK",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/commentisfree/2026/feb/02/epstein-files-expose-cheap-corruption-uk"
     },
-    "news_guardian_api_1770062445737_9": {
-      "id": "news_guardian_api_1770062445737_9",
+    "news_guardian_api_1770063964891_9": {
+      "id": "news_guardian_api_1770063964891_9",
       "title": "Gordon Brown asks top civil servant to investigate Mandelson ‘leak to Epstein’",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/politics/2026/feb/02/gordon-brown-asks-top-civil-servant-to-investigate-mandelson-leak-to-epstein"
     },
-    "news_guardian_api_1770062445737_10": {
-      "id": "news_guardian_api_1770062445737_10",
+    "news_guardian_api_1770063964891_10": {
+      "id": "news_guardian_api_1770063964891_10",
       "title": "Second woman alleging Epstein sent her to UK for Andrew encounter wants apology ",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/uk-news/2026/feb/02/second-woman-alleging-epstein-sent-uk-andrew-encounter-wants-apology-king-lawyers"
     },
-    "news_guardian_api_1770062445737_11": {
-      "id": "news_guardian_api_1770062445737_11",
+    "news_guardian_api_1770063964891_11": {
+      "id": "news_guardian_api_1770063964891_11",
       "title": "Russian captain of ship that hit tanker off UK guilty of killing crew member",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/uk-news/2026/feb/02/russian-captain-ship-hit-oil-tanker-guilty-killing-crew-member-humber"
     },
-    "news_guardian_api_1770062445737_12": {
-      "id": "news_guardian_api_1770062445737_12",
+    "news_guardian_api_1770063964891_12": {
+      "id": "news_guardian_api_1770063964891_12",
       "title": "Current world order ‘dead’, Draghi warns Europe, as he outlines US and China thr",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/world/live/2026/feb/02/eu-us-foreign-policy-shift-security-defence-latest-news-updates"
     },
-    "news_guardian_api_1770062445737_13": {
-      "id": "news_guardian_api_1770062445737_13",
+    "news_guardian_api_1770063964891_13": {
+      "id": "news_guardian_api_1770063964891_13",
       "title": "Can Peter Mandelson be stripped of his peerage over Epstein links?",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/politics/2026/feb/02/can-peter-mandelson-stripped-peerage-epstein-links"
     },
-    "news_guardian_api_1770062445737_14": {
-      "id": "news_guardian_api_1770062445737_14",
+    "news_guardian_api_1770063964891_14": {
+      "id": "news_guardian_api_1770063964891_14",
       "title": "Mandelson should no longer be a peer, says Starmer",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/politics/2026/feb/02/house-of-lords-should-strip-mandelson-of-peerage-says-starmer"
     },
-    "news_guardian_api_1770062445737_15": {
-      "id": "news_guardian_api_1770062445737_15",
+    "news_guardian_api_1770063964891_15": {
+      "id": "news_guardian_api_1770063964891_15",
       "title": "Melania debuts at No 29 at the UK box office",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/film/2026/feb/02/melania-debuts-at-no-29-at-the-uk-box-office-on-first-weekend-of-release"
     },
-    "news_guardian_api_1770062445737_16": {
-      "id": "news_guardian_api_1770062445737_16",
+    "news_guardian_api_1770063964891_16": {
+      "id": "news_guardian_api_1770063964891_16",
       "title": "Brazilian influencer who defended US immigration crackdown arrested by ICE",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/us-news/2026/feb/02/rightwing-brazilian-influencer-junior-pena-arrested-by-ice"
     },
-    "news_guardian_api_1770062445737_17": {
-      "id": "news_guardian_api_1770062445737_17",
+    "news_guardian_api_1770063964891_17": {
+      "id": "news_guardian_api_1770063964891_17",
       "title": "Does it matter when celebrities like Bad Bunny castigate Trump and ICE at the Gr",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/commentisfree/2026/feb/02/grammys-bad-bunny-donald-trump-ice-artists"
     },
-    "news_guardian_api_1770062445737_18": {
-      "id": "news_guardian_api_1770062445737_18",
+    "news_guardian_api_1770063964891_18": {
+      "id": "news_guardian_api_1770063964891_18",
       "title": "Chumbawamba call on Spain’s far-right Vox to stop using their best-known song",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/world/2026/feb/02/chumbawamba-spain-far-right-vox-song-tubthumping"
     },
-    "news_guardian_api_1770062445737_19": {
-      "id": "news_guardian_api_1770062445737_19",
+    "news_guardian_api_1770063964891_19": {
+      "id": "news_guardian_api_1770063964891_19",
       "title": "Spanish PM defends plans to regularise half a million undocumented migrants",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/world/2026/feb/02/pedro-sanchez-spain-defends-plans-regularise-migrants"
     },
-    "news_guardian_api_1770062445737_20": {
-      "id": "news_guardian_api_1770062445737_20",
+    "news_guardian_api_1770063964891_20": {
+      "id": "news_guardian_api_1770063964891_20",
       "title": "UK manufacturing growth accelerates as export orders rise",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/business/2026/feb/02/uk-manufacturing-growth-export-orders-pmi-interest-rates"
     },
-    "news_guardian_api_1770062445737_21": {
-      "id": "news_guardian_api_1770062445737_21",
+    "news_guardian_api_1770063964891_21": {
+      "id": "news_guardian_api_1770063964891_21",
       "title": "‘They killed him inside’: man who was son’s caretaker detained by ICE and denied",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/us-news/2026/feb/02/caregiver-detained-ice-dallas-maher-tarabishi-wael"
     },
-    "news_guardian_api_1770062445737_22": {
-      "id": "news_guardian_api_1770062445737_22",
+    "news_guardian_api_1770063964891_22": {
+      "id": "news_guardian_api_1770063964891_22",
       "title": "UK investor Michael Flacks ‘very interested in British Steel takeover’",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/business/2026/feb/02/uk-michael-flacks-british-steel-takeover-scunthorpe-steelworks"
     },
-    "news_guardian_api_1770062445737_23": {
-      "id": "news_guardian_api_1770062445737_23",
+    "news_guardian_api_1770063964891_23": {
+      "id": "news_guardian_api_1770063964891_23",
       "title": "Public health crisis unfolding in Minneapolis as residents avoid healthcare",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/us-news/2026/feb/02/public-health-crisis-minneapolis-ice"
     },
-    "news_guardian_api_1770062445737_24": {
-      "id": "news_guardian_api_1770062445737_24",
+    "news_guardian_api_1770063964891_24": {
+      "id": "news_guardian_api_1770063964891_24",
       "title": "Where is the outrage over five-year-old Liam Ramos’s detention? | Francine Prose",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/commentisfree/2026/feb/02/liam-ramos-horrific-ice-detention-outrage"
     },
-    "news_guardian_api_1770062445737_25": {
-      "id": "news_guardian_api_1770062445737_25",
+    "news_guardian_api_1770063964891_25": {
+      "id": "news_guardian_api_1770063964891_25",
       "title": "Hold on to Her review – horrific death of a two-year-old puts immigration crackd",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/film/2026/feb/02/hold-on-to-her-review-horrific-death-of-a-two-year-old-puts-immigration-crackdown-in-spotlight"
     },
-    "news_guardian_api_1770062445737_26": {
-      "id": "news_guardian_api_1770062445737_26",
+    "news_guardian_api_1770063964891_26": {
+      "id": "news_guardian_api_1770063964891_26",
       "title": "‘There is an attempt to get rid of me’: leader of UK’s black police association ",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/uk-news/2026/feb/02/leader-uk-national-black-police-association-alleges-campaign-to-silence-him"
     },
-    "news_guardian_api_1770062445737_27": {
-      "id": "news_guardian_api_1770062445737_27",
+    "news_guardian_api_1770063964891_27": {
+      "id": "news_guardian_api_1770063964891_27",
       "title": "To win the battle against Reform, Labour must first define its enemy | Tom Baldw",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/commentisfree/2026/feb/02/labour-reform-tories-keir-starmer-threat-democracy"
     },
-    "news_guardian_api_1770062445737_28": {
-      "id": "news_guardian_api_1770062445737_28",
+    "news_guardian_api_1770063964891_28": {
+      "id": "news_guardian_api_1770063964891_28",
       "title": "UK house prices bounce back in January as analysts predict 2%-4% rise in 2026",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/money/2026/feb/02/uk-house-prices-bounce-back-in-january-as-analysts-predict-2-4-rise-in-2026"
     },
-    "news_guardian_api_1770062445737_29": {
-      "id": "news_guardian_api_1770062445737_29",
+    "news_guardian_api_1770063964891_29": {
+      "id": "news_guardian_api_1770063964891_29",
       "title": "Self-driving taxis are coming to London – should we be worried? | Jack Stilgoe",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/commentisfree/2026/feb/02/self-driving-cars-taxis-london-worried"
     },
-    "news_guardian_api_1770062445737_30": {
-      "id": "news_guardian_api_1770062445737_30",
+    "news_guardian_api_1770063964891_30": {
+      "id": "news_guardian_api_1770063964891_30",
       "title": "Do You Love Me review – exhilarating documentary is ode to the collective courag",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/film/2026/feb/02/do-you-love-me-review-exhilarating-documentary-is-ode-to-the-collective-courage-of-lebanese-people"
     },
-    "news_guardian_api_1770062445737_31": {
-      "id": "news_guardian_api_1770062445737_31",
+    "news_guardian_api_1770063964891_31": {
+      "id": "news_guardian_api_1770063964891_31",
       "title": "UK Sport urges BBC to boost coverage of Olympic sports between Games",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/sport/2026/feb/02/uk-sport-urges-bbc-to-boost-coverage-of-olympic-sports-between-games"
     },
-    "news_guardian_api_1770062445737_32": {
-      "id": "news_guardian_api_1770062445737_32",
+    "news_guardian_api_1770063964891_32": {
+      "id": "news_guardian_api_1770063964891_32",
       "title": "Propaganda in cinemas, newsrooms slashed: this is the US media under Trump and h",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/commentisfree/2026/feb/02/propaganda-in-cinemas-newsrooms-slashed-this-is-the-us-media-under-trump-and-his-tech-barons"
     },
-    "news_guardian_api_1770062445737_33": {
-      "id": "news_guardian_api_1770062445737_33",
+    "news_guardian_api_1770063964891_33": {
+      "id": "news_guardian_api_1770063964891_33",
       "title": "‘You take what you can and run’: families describe harrowing journey to escape f",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/global-development/2026/feb/02/families-describe-escape-drc-fighting-burundi-east-africa"
     },
-    "news_guardian_api_1770062445737_34": {
-      "id": "news_guardian_api_1770062445737_34",
+    "news_guardian_api_1770063964891_34": {
+      "id": "news_guardian_api_1770063964891_34",
       "title": "Dyson PencilVac Fluffycones review: an ultra-light vacuum you’ll actually enjoy ",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-02",
       "url": "https://www.theguardian.com/thefilter/2026/feb/02/dyson-pencilvac-fluffycones-review"
     },
-    "news_guardian_api_1770062445737_35": {
-      "id": "news_guardian_api_1770062445737_35",
+    "news_guardian_api_1770063964891_35": {
+      "id": "news_guardian_api_1770063964891_35",
       "title": "Secret Genius review – Alan Carr and Susie Dent’s moving IQ contest will have yo",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-01",
       "url": "https://www.theguardian.com/tv-and-radio/2026/feb/01/secret-genius-review-alan-carr-suzie-dent-iq-contest-channel-4"
     },
-    "news_guardian_api_1770062445737_36": {
-      "id": "news_guardian_api_1770062445737_36",
+    "news_guardian_api_1770063964891_36": {
+      "id": "news_guardian_api_1770063964891_36",
       "title": "UK should consider resuming talks on EU defence pact, Starmer says",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-01",
       "url": "https://www.theguardian.com/politics/2026/feb/01/uk-should-consider-resuming-talks-on-eu-defence-pact-starmer-says"
     },
-    "news_guardian_api_1770062445737_37": {
-      "id": "news_guardian_api_1770062445737_37",
+    "news_guardian_api_1770063964891_37": {
+      "id": "news_guardian_api_1770063964891_37",
       "title": "Five-year-old Liam Ramos and his father released from Texas detention center",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-01",
       "url": "https://www.theguardian.com/us-news/2026/feb/01/liam-ramos-father-released-ice-detention"
     },
-    "news_guardian_api_1770062445737_38": {
-      "id": "news_guardian_api_1770062445737_38",
+    "news_guardian_api_1770063964891_38": {
+      "id": "news_guardian_api_1770063964891_38",
       "title": "C of E bishops criticise UK inaction over Israel’s ‘West Bank de facto annexatio",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-01",
       "url": "https://www.theguardian.com/world/2026/feb/01/bishops-criticise-uk-inaction-israel-west-bank-de-facto-annexation"
     },
-    "news_guardian_api_1770062445737_39": {
-      "id": "news_guardian_api_1770062445737_39",
+    "news_guardian_api_1770063964891_39": {
+      "id": "news_guardian_api_1770063964891_39",
       "title": "UK hospitality firms demand more help with business rates amid questions over He",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-01",
       "url": "https://www.theguardian.com/business/2026/feb/01/uk-business-rates-rachel-reeves-relief-fund-heathrow-hospitality"
     },
-    "news_guardian_api_1770062445737_40": {
-      "id": "news_guardian_api_1770062445737_40",
+    "news_guardian_api_1770063964891_40": {
+      "id": "news_guardian_api_1770063964891_40",
       "title": "We have allowed poverty to become normalised in our country | Letters",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-01",
       "url": "https://www.theguardian.com/society/2026/feb/01/we-have-allowed-poverty-to-become-normalised-in-our-country"
     },
-    "news_guardian_api_1770062445737_41": {
-      "id": "news_guardian_api_1770062445737_41",
+    "news_guardian_api_1770063964891_41": {
+      "id": "news_guardian_api_1770063964891_41",
       "title": "Betfred brothers top list of UK’s biggest taxpayers with £400m bill",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-01",
       "url": "https://www.theguardian.com/money/2026/feb/01/uk-biggest-taxpayers-list-betfred-brothers-tim-martin-harry-styles-erling-haaland"
     },
-    "news_guardian_api_1770062445737_42": {
-      "id": "news_guardian_api_1770062445737_42",
+    "news_guardian_api_1770063964891_42": {
+      "id": "news_guardian_api_1770063964891_42",
       "title": "In Gorton and Denton, I found a long-festering sense of fury that Labour has no ",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-01",
       "url": "https://www.theguardian.com/commentisfree/2026/feb/01/labour-gorton-and-denton-byelection-reform-fury"
     },
-    "news_guardian_api_1770062445737_43": {
-      "id": "news_guardian_api_1770062445737_43",
+    "news_guardian_api_1770063964891_43": {
+      "id": "news_guardian_api_1770063964891_43",
       "title": "Dozens of historic Maseratis recreated for movie about Italian car company",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-01",
       "url": "https://www.theguardian.com/film/2026/feb/01/italy-historic-cars-recreated-film-maserati"
     },
-    "news_guardian_api_1770062445737_44": {
-      "id": "news_guardian_api_1770062445737_44",
+    "news_guardian_api_1770063964891_44": {
+      "id": "news_guardian_api_1770063964891_44",
       "title": "Spotlight remains on a Coalition in chaos as parliament returns, with splits and",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-01",
       "url": "https://www.theguardian.com/australia-news/2026/feb/01/spotlight-remains-on-a-coalition-in-chaos-as-parliament-returns-with-splits-and-spills-looming-over-policy"
     },
-    "news_guardian_api_1770062445737_45": {
-      "id": "news_guardian_api_1770062445737_45",
+    "news_guardian_api_1770063964891_45": {
+      "id": "news_guardian_api_1770063964891_45",
       "title": "From cute dogs to Turning Point: the journey of an influencer aiming to breathe ",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-01",
       "url": "https://www.theguardian.com/australia-news/2026/feb/02/turning-point-australia-rightwing-christian-politics"
     },
-    "news_guardian_api_1770062445737_46": {
-      "id": "news_guardian_api_1770062445737_46",
+    "news_guardian_api_1770063964891_46": {
+      "id": "news_guardian_api_1770063964891_46",
       "title": "I’ve never taken drugs or drunk alcohol, says Zack Polanski",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-01",
       "url": "https://www.theguardian.com/politics/2026/feb/01/zack-polanski-green-party-legalise-drugs-alcohol"
     },
-    "news_guardian_api_1770062445737_47": {
-      "id": "news_guardian_api_1770062445737_47",
+    "news_guardian_api_1770063964891_47": {
+      "id": "news_guardian_api_1770063964891_47",
       "title": "‘It sounds apocalyptic’: experts warn of impact of UK floods on birds, butterfli",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-01",
       "url": "https://www.theguardian.com/environment/2026/feb/01/storm-chandra-uk-floods-impact-wildlife-birds-butterflies-dormice-beavers-aoe"
     },
-    "news_guardian_api_1770062445737_48": {
-      "id": "news_guardian_api_1770062445737_48",
+    "news_guardian_api_1770063964891_48": {
+      "id": "news_guardian_api_1770063964891_48",
       "title": "Cuba on the brink as Trump turns up the pressure: ‘There is going to be a real b",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-01",
       "url": "https://www.theguardian.com/world/2026/feb/01/cuba-fuel-shortage-trump-tariffs"
     },
-    "news_guardian_api_1770062445737_49": {
-      "id": "news_guardian_api_1770062445737_49",
+    "news_guardian_api_1770063964891_49": {
+      "id": "news_guardian_api_1770063964891_49",
       "title": "Anglican clergy in London to be asked to promote antiracism in sermons",
       "type": "news_headline",
       "role": "media_framing",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "The Guardian",
       "published_at": "2026-02-01",
       "url": "https://www.theguardian.com/news/2026/feb/01/anglican-clergy-london-antiracism-sermons"
@@ -1272,7 +1272,7 @@
       "title": "Migrants detected crossing the English Channel in small boats",
       "type": "official_stat",
       "role": "reality_metric",
-      "retrieved_at": "2026-02-02T20:00:45Z",
+      "retrieved_at": "2026-02-02T20:26:04Z",
       "publisher": "UK Government",
       "url": "https://www.gov.uk/government/publications/migrants-detected-crossing-the-english-channel-in-small-boats"
     },
@@ -1305,8 +1305,8 @@
     }
   },
   "staleness": {
-    "media_updated_at": "2026-02-02T20:00:45.741Z",
-    "polling_updated_at": "2026-02-02T20:00:45.741Z",
-    "metrics_updated_at": "2026-02-02T20:00:45.741Z"
+    "media_updated_at": "2026-02-02T20:26:04.997Z",
+    "polling_updated_at": "2026-02-02T20:26:04.997Z",
+    "metrics_updated_at": "2026-02-02T20:26:04.997Z"
   }
 }
