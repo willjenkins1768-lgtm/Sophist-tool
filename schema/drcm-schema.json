@@ -1,0 +1,260 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://sophist-tool/drcm-schema/0.2.0",
+  "title": "DRCM Tool Ingest Schema",
+  "description": "All assignments are assessments with provenance; dominance is typed and may be contested. See docs/DESIGN.md.",
+  "meta": {
+    "schema_version": "0.2.0",
+    "generated_at": "2026-02-02T10:00:00Z",
+    "timezone": "Europe/London",
+    "notes": "All assignments are assessments with provenance; dominance is typed and may be contested."
+  },
+
+  "taxonomy": {
+    "respects": [
+      {
+        "id": "being",
+        "label": "Ontological status",
+        "prompt_hint": "What is this at all?",
+        "operators": ["being"]
+      },
+      {
+        "id": "change",
+        "label": "Dynamic / processual",
+        "prompt_hint": "Is this evolving, escalating, transforming?",
+        "operators": ["change", "different"]
+      },
+      {
+        "id": "rest",
+        "label": "Structural / fixed",
+        "prompt_hint": "Is this settled, rule-governed, stable?",
+        "operators": ["rest", "same"]
+      },
+      {
+        "id": "same",
+        "label": "Identity / continuity",
+        "prompt_hint": "What does this count as? Who/what is it?",
+        "operators": ["same"]
+      },
+      {
+        "id": "different",
+        "label": "Exclusion / otherness",
+        "prompt_hint": "What is it not? Who is excluded/othered?",
+        "operators": ["different"]
+      }
+    ],
+
+    "dominance_types": [
+      { "id": "legal", "label": "Legally entrenched" },
+      { "id": "incumbent", "label": "Incumbent agenda-setting" },
+      { "id": "administrative", "label": "Administratively operationalised" },
+      { "id": "media", "label": "Discursively dominant (media)" },
+      { "id": "parliamentary", "label": "Discursively dominant (parliament)" },
+      { "id": "metrics", "label": "Metric/target dominant" },
+      { "id": "expert_curated", "label": "Curated (expert)" }
+    ],
+
+    "assessment_status": [
+      { "id": "proposed", "label": "Proposed (unverified)" },
+      { "id": "validated", "label": "Validated" },
+      { "id": "contested", "label": "Contested / ambiguous" },
+      { "id": "rejected", "label": "Rejected" }
+    ]
+  },
+
+  "actors": {
+    "parties": [
+      { "id": "labour", "label": "Labour" },
+      { "id": "conservative", "label": "Conservative" },
+      { "id": "reform", "label": "Reform" },
+      { "id": "green", "label": "Green" }
+    ],
+
+    "institutions": [
+      { "id": "home_office", "label": "Home Office" },
+      { "id": "parliament", "label": "UK Parliament" },
+      { "id": "courts", "label": "Courts" }
+    ],
+
+    "media_outlets": []
+  },
+
+  "corpus": {
+    "documents": [
+      {
+        "id": "labour_manifesto_2024",
+        "title": "Labour Manifesto 2024",
+        "source_type": "manifesto",
+        "publisher": "Labour",
+        "published_at": "2024-06-01",
+        "ingested_at": "2026-02-02T09:00:00Z",
+        "uri": "local://corpus/labour_manifesto_2024.txt"
+      }
+    ]
+  },
+
+  "subjects": [
+    {
+      "id": "migration",
+      "label": "Migration",
+      "parent_id": null,
+      "description": "Umbrella subject; may split into asylum, border control, legal migration, small boats.",
+      "tags": ["borders", "society"]
+    },
+    {
+      "id": "small_boats",
+      "label": "Small boats",
+      "parent_id": "migration",
+      "description": "Irregular Channel crossings; frequently framed as security, legality, and humanitarian concern.",
+      "tags": ["borders", "security"]
+    }
+  ],
+
+  "assessments": {
+    "party_positions": [
+      {
+        "id": "pp_small_boats_conservative_2026-02-02",
+        "subject_id": "small_boats",
+        "actor_type": "party",
+        "actor_id": "conservative",
+        "as_of": "2026-02-02",
+        "primary_respect": {
+          "respect_id": "change",
+          "confidence": 0.74
+        },
+        "secondary_respect": {
+          "respect_id": "different",
+          "confidence": 0.41
+        },
+        "status": "proposed",
+        "method": {
+          "producer": "llm",
+          "model": "gpt-4.1-mini",
+          "prompt_hash": "sha256:...",
+          "extraction_mode": "chunked"
+        },
+        "evidence": [
+          {
+            "doc_id": "labour_manifesto_2024",
+            "quote": "Exact verbatim quote from document.",
+            "char_start": 10234,
+            "char_end": 10321,
+            "section": "Borders and migration",
+            "page": null,
+            "quote_verified": false,
+            "extracted_by": "llm"
+          }
+        ],
+        "rationale": [
+          "Language emphasises escalation/trajectory and risk management (change-operator signature).",
+          "Frames the subject via boundary control and otherness (different-operator signature)."
+        ],
+        "operator_signature": {
+          "being": 0.05,
+          "change": 0.68,
+          "rest": 0.22,
+          "same": 0.14,
+          "different": 0.47
+        },
+        "notes": "Secondary respect indicates boundary/otherness framing alongside threat/trajectory.",
+        "human_override": null,
+        "disagreement_type": "ontological"
+      }
+    ],
+
+    "dominant_respects": [
+      {
+        "id": "dr_small_boats_2026-02-02",
+        "subject_id": "small_boats",
+        "as_of": "2026-02-02",
+        "dominant": {
+          "respect_id": "change",
+          "confidence": 0.62
+        },
+        "dominance_types": [
+          {
+            "type_id": "legal",
+            "weight": 0.45,
+            "sources": [
+              {
+                "doc_ref": "local://corpus/illegal_migration_act_2023.txt",
+                "note": "Statutory framing emphasises deterrence/enforcement and process control."
+              }
+            ]
+          },
+          {
+            "type_id": "incumbent",
+            "weight": 0.30,
+            "sources": [
+              {
+                "doc_ref": "local://corpus/home_office_strategy_2023.txt",
+                "note": "Government language emphasises threat management and control."
+              }
+            ]
+          },
+          {
+            "type_id": "media",
+            "weight": 0.25,
+            "sources": [
+              {
+                "doc_ref": "local://corpus/media_sample_small_boats_2025Q4.json",
+                "note": "Headline framing skewed to risk/threat language."
+              }
+            ]
+          }
+        ],
+        "status": "proposed",
+        "method": {
+          "producer": "hybrid",
+          "rule": "weighted_vote",
+          "details": "Dominant = highest weighted respect across {legal, incumbent, media} with min_confidence=0.55."
+        },
+        "contestation": {
+          "level": "medium",
+          "challengers": [
+            {
+              "actor_type": "party",
+              "actor_id": "green",
+              "respect_id": "same",
+              "challenge_strength": 0.66
+            }
+          ],
+          "split_dominance": false,
+          "alternative_dominants": [
+            { "respect_id": "rest", "confidence": 0.48 }
+          ]
+        },
+        "rationale": [
+          "Legal and incumbent sources lean toward control/enforcement and trajectory management (change).",
+          "Challenger respects cluster around identity/humanitarian framing (same), indicating active contest."
+        ],
+        "human_override": {
+          "override_status": null,
+          "overridden_by": null,
+          "overridden_at": null,
+          "override_note": null
+        }
+      }
+    ],
+
+    "dominant_history": [
+      {
+        "subject_id": "small_boats",
+        "timeline": [
+          {
+            "from": "2023-01-01",
+            "to": "2024-12-31",
+            "dominant_respect_id": "change",
+            "dominance_types": ["legal", "incumbent"],
+            "status": "proposed"
+          }
+        ]
+      }
+    ]
+  },
+
+  "windows": {
+    "media_sample_window": { "from": "2025-10-01", "to": "2025-12-31" },
+    "parliamentary_sample_window": { "from": null, "to": null }
+  }
+}

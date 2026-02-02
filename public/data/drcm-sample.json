@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "schema_version": "0.2.0",
+    "generated_at": "2026-02-02T10:00:00Z",
+    "timezone": "Europe/London",
+    "notes": "Sample data for DRCM tool; all assessments proposed."
+  },
+  "taxonomy": {
+    "respects": [
+      { "id": "being", "label": "Ontological status", "prompt_hint": "What is this at all?", "operators": ["being"] },
+      { "id": "change", "label": "Dynamic / processual", "prompt_hint": "Is this evolving, escalating, transforming?", "operators": ["change", "different"] },
+      { "id": "rest", "label": "Structural / fixed", "prompt_hint": "Is this settled, rule-governed, stable?", "operators": ["rest", "same"] },
+      { "id": "same", "label": "Identity / continuity", "prompt_hint": "What does this count as? Who/what is it?", "operators": ["same"] },
+      { "id": "different", "label": "Exclusion / otherness", "prompt_hint": "What is it not? Who is excluded/othered?", "operators": ["different"] }
+    ],
+    "dominance_types": [
+      { "id": "legal", "label": "Legally entrenched" },
+      { "id": "incumbent", "label": "Incumbent agenda-setting" },
+      { "id": "administrative", "label": "Administratively operationalised" },
+      { "id": "media", "label": "Discursively dominant (media)" },
+      { "id": "parliamentary", "label": "Discursively dominant (parliament)" },
+      { "id": "metrics", "label": "Metric/target dominant" },
+      { "id": "expert_curated", "label": "Curated (expert)" }
+    ],
+    "assessment_status": [
+      { "id": "proposed", "label": "Proposed (unverified)" },
+      { "id": "validated", "label": "Validated" },
+      { "id": "contested", "label": "Contested / ambiguous" },
+      { "id": "rejected", "label": "Rejected" }
+    ],
+    "political_respects": [
+      { "id": "security_border", "label": "Security / Border control", "guiding_question": "Is migration primarily a threat to be controlled?", "typical_predicates": ["stop", "deter", "secure", "crackdown", "illegal", "enforcement", "threat", "gangs"], "operator_signature": { "change": 0.71, "different": 0.64 }, "domain": "migration" },
+      { "id": "humanitarian_protection", "label": "Humanitarian / Moral responsibility", "guiding_question": "Are migrants primarily vulnerable persons owed protection?", "typical_predicates": ["dignity", "safety", "refuge", "compassion", "harm", "rescue", "welfare"], "operator_signature": { "same": 0.72, "change": 0.45 }, "domain": "migration" },
+      { "id": "legal_procedural", "label": "Legal–Procedural / Rule of law", "guiding_question": "Must migration be governed strictly by legal process and rights?", "typical_predicates": ["due process", "lawful", "ECHR", "HRA", "courts", "obligations", "procedures"], "operator_signature": { "rest": 0.68, "same": 0.55 }, "domain": "migration" },
+      { "id": "economic_labour", "label": "Economic / Labour market", "guiding_question": "Is migration primarily an economic input/output issue?", "typical_predicates": ["workforce", "productivity", "skills", "growth", "pressure on services"], "operator_signature": { "change": 0.58, "rest": 0.52 }, "domain": "migration" },
+      { "id": "sovereignty_control", "label": "Sovereignty / Democratic control", "guiding_question": "Who has the authority to decide migration policy?", "typical_predicates": ["control", "sovereignty", "mandate", "Parliament", "external constraint"], "operator_signature": { "same": 0.62, "different": 0.58 }, "domain": "migration" },
+      { "id": "administrative_capacity", "label": "Administrative capacity / System performance", "guiding_question": "Is the problem state capacity and system failure?", "typical_predicates": ["backlog", "processing times", "hotels", "inefficiency", "cost overruns"], "operator_signature": { "change": 0.55, "rest": 0.60 }, "domain": "migration" }
+    ]
+  },
+  "actors": {
+    "parties": [
+      { "id": "labour", "label": "Labour" },
+      { "id": "conservative", "label": "Conservative" },
+      { "id": "reform", "label": "Reform" },
+      { "id": "green", "label": "Green" }
+    ],
+    "institutions": [
+      { "id": "home_office", "label": "Home Office" },
+      { "id": "parliament", "label": "UK Parliament" },
+      { "id": "courts", "label": "Courts" }
+    ],
+    "media_outlets": []
+  },
+  "corpus": {
+    "documents": [
+      { "id": "labour_manifesto_2024", "title": "Labour Manifesto 2024", "source_type": "manifesto", "publisher": "Labour", "published_at": "2024-06-01", "ingested_at": "2026-02-02T09:00:00Z", "uri": "local://corpus/labour_manifesto_2024.txt" },
+      { "id": "conservative_manifesto_2024", "title": "Conservative Manifesto 2024", "source_type": "manifesto", "publisher": "Conservative", "published_at": "2024-06-01", "ingested_at": "2026-02-02T09:00:00Z", "uri": "local://corpus/conservative_manifesto_2024.txt" },
+      { "id": "reform_manifesto_2024", "title": "Reform Manifesto 2024", "source_type": "manifesto", "publisher": "Reform", "published_at": "2024-06-01", "ingested_at": "2026-02-02T09:00:00Z", "uri": "local://corpus/reform_manifesto_2024.txt" },
+      { "id": "green_manifesto_2024", "title": "Green Manifesto 2024", "source_type": "manifesto", "publisher": "Green", "published_at": "2024-06-01", "ingested_at": "2026-02-02T09:00:00Z", "uri": "local://corpus/green_manifesto_2024.txt" }
+    ]
+  },
+  "subjects": [
+    { "id": "migration", "label": "Migration", "parent_id": null, "domain": "migration", "description": "Umbrella subject; sub-topics listed below.", "tags": ["borders", "society"] },
+    { "id": "small_boats", "label": "Small boats", "parent_id": "migration", "domain": "migration", "description": "Irregular Channel crossings; frequently framed as security, legality, and humanitarian concern.", "tags": ["borders", "security"] }
+  ],
+  "assessments": {
+    "party_positions": [
+      { "id": "pp_small_boats_conservative", "subject_id": "small_boats", "actor_type": "party", "actor_id": "conservative", "as_of": "2026-02-02", "primary_respect": { "respect_id": "change", "confidence": 0.74 }, "primary_political_respect": { "political_respect_id": "security_border", "confidence": 0.74 }, "secondary_respect": { "respect_id": "different", "confidence": 0.41 }, "secondary_political_respect": { "political_respect_id": "sovereignty_control", "confidence": 0.41 }, "status": "proposed", "method": { "producer": "llm", "extraction_mode": "chunked" }, "evidence": [{ "doc_id": "conservative_manifesto_2024", "quote": "We will stop the boats and secure our borders.", "section": "Borders", "quote_verified": false, "extracted_by": "llm" }], "rationale": ["Language emphasises escalation and risk management (change)."], "notes": null, "human_override": null, "disagreement_type": "ontological", "key_assertion": "Small boats are a security threat in respect of trajectory and control.", "permissible_predicates": ["escalating", "uncontrolled", "threat", "must be stopped", "secure borders"], "excluded_predicates": ["administrative delay", "individual hardship", "humanitarian crisis", "people seeking safety"], "what_respect_demands": "Treat crossings as a threat trajectory requiring deterrence and control.", "evidence_quality": "direct", "public_fit": "good", "public_fit_reason": "Polls favour tougher measures.", "media_fit": "good", "media_fit_reason": "Headlines align with security frame.", "reality_fit": "warning", "reality_fit_reason": "Crossings down but deaths up—narrative strain.", "relation_to_dominant": "matches", "vulnerability": "Fails if crossings fall but rhetoric stays escalatory.", "commitments": ["Deterrence and control are prior to humanitarian outcomes.", "Numbers and trajectory are the key metrics.", "Border security legitimates the frame."] },
+      { "id": "pp_small_boats_labour", "subject_id": "small_boats", "actor_type": "party", "actor_id": "labour", "as_of": "2026-02-02", "primary_respect": { "respect_id": "same", "confidence": 0.68 }, "primary_political_respect": { "political_respect_id": "humanitarian_protection", "confidence": 0.68 }, "secondary_respect": { "respect_id": "rest", "confidence": 0.45 }, "secondary_political_respect": { "political_respect_id": "legal_procedural", "confidence": 0.45 }, "status": "proposed", "method": { "producer": "llm", "extraction_mode": "chunked" }, "evidence": [{ "doc_id": "labour_manifesto_2024", "quote": "A fair asylum system that treats people with dignity.", "section": "Migration", "quote_verified": false, "extracted_by": "llm" }], "rationale": ["Frames asylum seekers as persons (identity/continuity)."], "notes": null, "human_override": null, "disagreement_type": "ontological", "key_assertion": "Small boats are people in need of protection in respect of identity and dignity.", "permissible_predicates": ["dignity", "fair", "people", "protection", "rebuild lives"], "excluded_predicates": ["threat", "illegal", "numbers to be reduced", "border security first"], "what_respect_demands": "Treat people crossing as claimants/persons first; fair asylum and safe routes.", "evidence_quality": "direct", "public_fit": "warning", "public_fit_reason": "Split between tougher vs humane emphasis.", "media_fit": "warning", "media_fit_reason": "Some outlets sympathetic, most lead with security.", "reality_fit": "good", "reality_fit_reason": "Deaths and harm support need for safe pathways.", "relation_to_dominant": "challenges", "attack_line": "Security framing dehumanises and ignores legal obligations.", "commitments": ["People as persons prior to numbers.", "Safe routes and fair process are prior to deterrence.", "Tolerating some increase in claims if safety improves."], "stance_mode": "balancing" },
+      { "id": "pp_small_boats_reform", "subject_id": "small_boats", "actor_type": "party", "actor_id": "reform", "as_of": "2026-02-02", "primary_respect": { "respect_id": "different", "confidence": 0.72 }, "primary_political_respect": { "political_respect_id": "sovereignty_control", "confidence": 0.72 }, "secondary_respect": { "respect_id": "change", "confidence": 0.58 }, "secondary_political_respect": { "political_respect_id": "security_border", "confidence": 0.58 }, "status": "proposed", "method": { "producer": "llm", "extraction_mode": "chunked" }, "evidence": [{ "doc_id": "reform_manifesto_2024", "quote": "Illegal immigration undermines our way of life.", "section": "Immigration", "quote_verified": false, "extracted_by": "llm" }], "rationale": ["Frames subject via otherness and boundary."], "notes": null, "human_override": null, "disagreement_type": "ontological", "key_assertion": "Small boats are other to our way of life in respect of exclusion and boundary.", "permissible_predicates": ["illegal", "undermines", "other", "our borders", "way of life threatened"], "excluded_predicates": ["people like us", "dignity", "humanitarian obligation", "shared humanity"], "what_respect_demands": "Treat crossings as other to our way of life; border control and exclusion prior.", "evidence_quality": "direct", "public_fit": "good", "public_fit_reason": "Strong support for tougher measures in segments.", "media_fit": "good", "media_fit_reason": "Illegal/border language widespread.", "reality_fit": "warning", "reality_fit_reason": "Depends on crossings and trafficking trends.", "relation_to_dominant": "challenges", "attack_line": "Current policy is weak; need full exclusion and offshore processing.", "commitments": ["Otherness and boundary are prior to humanitarian claims.", "Numbers must fall; enforcement is the metric.", "Way of life trumps refugee convention in practice."] },
+      { "id": "pp_small_boats_green", "subject_id": "small_boats", "actor_type": "party", "actor_id": "green", "as_of": "2026-02-02", "primary_respect": { "respect_id": "same", "confidence": 0.78 }, "primary_political_respect": { "political_respect_id": "humanitarian_protection", "confidence": 0.78 }, "secondary_respect": null, "status": "proposed", "method": { "producer": "llm", "extraction_mode": "chunked" }, "evidence": [{ "doc_id": "green_manifesto_2024", "quote": "Everyone deserves safety and a chance to rebuild their lives.", "section": "Refugees", "quote_verified": false, "extracted_by": "llm" }], "rationale": ["Humanitarian framing; identity/continuity."], "notes": null, "human_override": null, "disagreement_type": "ontological", "key_assertion": "Small boats are people deserving safety in respect of shared humanity and continuity.", "permissible_predicates": ["safety", "rebuild lives", "everyone deserves", "humanity", "protection"], "excluded_predicates": ["illegal", "threat", "numbers", "border control", "other to us"], "what_respect_demands": "Treat everyone as deserving safety and a chance to rebuild; humanitarian obligation prior.", "evidence_quality": "direct", "public_fit": "bad", "public_fit_reason": "Minority support for humanitarian-first framing.", "media_fit": "bad", "media_fit_reason": "Rarely lead frame in headlines.", "reality_fit": "good", "reality_fit_reason": "Deaths and harm strengthen case for safe pathways.", "relation_to_dominant": "challenges", "attack_line": "Security framing violates human rights and fails to prevent deaths.", "commitments": ["Humanity and safety prior to border control.", "Deaths and harm are the stress-test; if they rise, frame gains legitimacy.", "Safe routes and resettlement are non-negotiable."] }
+    ],
+    "dominant_respects": [
+      { "id": "dr_small_boats", "subject_id": "small_boats", "as_of": "2026-02-02", "dominant": { "respect_id": "change", "confidence": 0.62 }, "dominant_political_respect": { "political_respect_id": "security_border", "confidence": 0.62 }, "dominance_types": [{ "type_id": "legal", "weight": 0.45, "sources": [{ "doc_ref": "Illegal Migration Act 2023", "note": "Statutory framing emphasises deterrence and control." }] }, { "type_id": "incumbent", "weight": 0.30, "sources": [{ "doc_ref": "Home Office strategy 2023", "note": "Government language emphasises threat management." }] }, { "type_id": "media", "weight": 0.25, "sources": [{ "doc_ref": "Media sample 2025 Q4", "note": "Headline framing skewed to risk/threat." }] }], "status": "proposed", "method": { "producer": "hybrid", "rule": "weighted_vote", "details": "Dominant = highest weighted respect across legal, incumbent, media." }, "contestation": { "level": "medium", "challengers": [{ "actor_type": "party", "actor_id": "green", "respect_id": "same", "political_respect_id": "humanitarian_protection", "challenge_strength": 0.66 }, { "actor_type": "party", "actor_id": "labour", "respect_id": "same", "political_respect_id": "humanitarian_protection", "challenge_strength": 0.58 }], "split_dominance": false, "alternative_dominants": [{ "respect_id": "rest", "confidence": 0.48 }] }, "rationale": ["Legal and incumbent sources lean toward control and trajectory (change).", "Challenger respects cluster around identity/humanitarian (same)."], "stability": "high", "recent_drift": "↑ toward security (last 30 days)" }
+    ],
+    "dominant_history": [],
+    "media_framing": [
+      { "subject_id": "small_boats", "time_window": "last 14 days", "dominant_respect_id": "change", "dominant_political_respect_id": "security_border", "dominant_pct": 62, "secondary": [{ "respect_id": "rest", "political_respect_id": "legal_procedural", "pct": 21 }, { "respect_id": "same", "political_respect_id": "humanitarian_protection", "pct": 17 }], "top_phrases": ["crackdown", "illegal", "border", "traffickers", "stop the boats"], "evidence": [{ "quote": "Government unveils new crackdown on small boat crossings.", "source": "BBC" }, { "quote": "Illegal migration bill faces legal challenge.", "source": "The Guardian" }, { "quote": "Border force intercepts 50 boats in single day.", "source": "Sky News" }] }
+    ],
+    "public_framing": [
+      { "subject_id": "small_boats", "time_window": "Nov 2025", "public_prior_respect_id": "change", "public_prior_political_respect_id": "security_border", "public_prior_confidence": 0.58, "split_description": "58% favour tougher measures vs 42% humane approach", "trend": "Shifting toward security in last 6 months." }
+    ],
+    "reality_metrics": [
+      { "subject_id": "small_boats", "name": "Channel crossings", "direction": "down", "value_label": "↓ 15% yoy", "interpretations": [{ "respect_id": "change", "political_respect_id": "security_border", "read": "Deterrence working; still a threat, need to sustain." }, { "respect_id": "same", "political_respect_id": "humanitarian_protection", "read": "Route more dangerous; need safe pathways." }, { "respect_id": "rest", "political_respect_id": "legal_procedural", "read": "System failure intensifies legal risk." }] },
+      { "subject_id": "small_boats", "name": "Deaths at sea", "direction": "up", "value_label": "↑", "interpretations": [{ "respect_id": "change", "political_respect_id": "security_border", "read": "Routes riskier; deterrence message." }, { "respect_id": "same", "political_respect_id": "humanitarian_protection", "read": "Safe routes would save lives; humanitarian frame gains." }, { "respect_id": "rest", "political_respect_id": "legal_procedural", "read": "Legal and procedural failure." }] }
+    ],
+    "institutional_chokepoints": [
+      { "subject_id": "small_boats", "institution_id": "home_office", "role": "Department ownership; enforcement and deterrence narrative." },
+      { "subject_id": "small_boats", "institution_id": "courts", "role": "Legal constraints (ECHR, Refugee Convention)." }
+    ],
+    "dominance_scenarios": [
+      { "subject_id": "small_boats", "condition": "If crossings spike", "outcome": "Security dominance strengthens." },
+      { "subject_id": "small_boats", "condition": "If deaths spike", "outcome": "Humanitarian challenger strengthens." },
+      { "subject_id": "small_boats", "condition": "If court strikes down policy", "outcome": "Legality frame strengthens." }
+    ]
+  },
+  "windows": {
+    "media_sample_window": { "from": "2025-10-01", "to": "2025-12-31" },
+    "parliamentary_sample_window": { "from": null, "to": null }
+  }
+}

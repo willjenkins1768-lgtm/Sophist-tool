@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --respect-being: 220 60% 45%;
+  --respect-change: 25 75% 48%;
+  --respect-rest: 160 45% 42%;
+  --respect-same: 280 50% 52%;
+  --respect-different: 0 55% 50%;
+}
+
+body {
+  @apply bg-stone-100 text-stone-900 antialiased;
+}
